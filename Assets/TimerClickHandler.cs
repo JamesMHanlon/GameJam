@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class TimerClickHandler : MonoBehaviour
 {
-    public Text timerTextUI;
-    public Text clickTextUI;
+    public TMP_Text timerTextUI;
+    public TMP_Text clickTextUI;
     public float timer;
     public float starttimer;
     private int clickCount = 0;
@@ -40,6 +40,7 @@ public class TimerClickHandler : MonoBehaviour
 
     void ResetTimer()
     {
+        starttimer = starttimer + 3;
         timer = starttimer;
         isTimerRunning = true;
         clickCount++;
@@ -54,6 +55,7 @@ public class TimerClickHandler : MonoBehaviour
 
     void UpdateClickCountText()
     {
-        clickTextUI.text = "£" + clickCount;
+        clickTextUI.text = "£: " + clickCount;
     }
 }
+
