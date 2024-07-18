@@ -2837,8 +2837,9 @@ GameObject:
   - component: {fileID: 2064008907}
   - component: {fileID: 2064008910}
   - component: {fileID: 2064008909}
+  - component: {fileID: 2064008911}
   m_Layer: 0
-  m_Name: Big Vial - ORANGE - Spritesheet_0
+  m_Name: Potion1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2925,8 +2926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerTextUI: {fileID: 355157306}
   clickTextUI: {fileID: 41946734}
-  timer: 3
-  starttimer: 3
+  timer: 5
+  starttimer: 5
 --- !u!61 &2064008910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2972,6 +2973,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 0.37}
   m_EdgeRadius: 0
+--- !u!95 &2064008911
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064008906}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd8424d05ca7fc64bab3ee166827674d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
