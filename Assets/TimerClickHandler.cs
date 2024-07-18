@@ -40,7 +40,6 @@ public class TimerClickHandler : MonoBehaviour
 
     void ResetTimer()
     {
-        starttimer = starttimer + 3;
         timer = starttimer;
         isTimerRunning = true;
         clickCount++;
