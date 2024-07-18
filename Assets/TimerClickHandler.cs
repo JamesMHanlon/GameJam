@@ -49,7 +49,7 @@ public class TimerClickHandler : MonoBehaviour
 
     void UpdateTimerText()
     {
-        timerTextUI.text = "Time: " + Mathf.Ceil(timer).ToString();
+        timerTextUI.text = Mathf.Ceil(timer).ToString();
     }
 
     void UpdateClickCountText()
