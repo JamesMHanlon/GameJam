@@ -6,6 +6,7 @@ public class DungeonScript : MonoBehaviour
 {
     public void OnMouseDown ()
     {
+        // CHECK
         Debug.Log("EnteringFarm");
         SceneManager.LoadScene("Farm");
     }
