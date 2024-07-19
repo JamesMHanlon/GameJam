@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class DungeonScript : MonoBehaviour
 {
-    public void enterFarm ()
+    public void OnMouseDown ()
     {
         Debug.Log("EnteringFarm");
         SceneManager.LoadScene("Farm");
