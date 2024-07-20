@@ -2,21 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 
 public class SettingsMenu : MonoBehaviour
 {
 
-    public AudioMixer audioMixer;
+    public Slider masterVol, musicVol;
+    public AudioMixer mainAudioMixer;
 
-    public void SetVolume (float volume)
+    public void ChangeMasterVolume()
     {
-        audioMixer.SetFloat("volumemaster", volume);
+        mainAudioMixer.SetFloat("volumemaster", masterVol.value);
     }
-
-        public void SetVolumeMusic (float volumem)
+    public void ChangeMusicVolume()
     {
-        audioMixer.SetFloat("volumemusic", volumem);
+        mainAudioMixer.SetFloat("volumemusic", musicVol.value);
     }
 
     public void SetQuality (int qualityIndex)
