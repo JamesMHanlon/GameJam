@@ -35,12 +35,13 @@ public class TimerClickHandler : MonoBehaviour
         if (!isTimerRunning)
         {
             ResetTimer();
+            gameObject.SetActive(false);
         }
     }
 
     void ResetTimer()
     {
-        timer = starttimer;
+        timer = 0;
         isTimerRunning = true;
         clickCount++;
         UpdateClickCountText();
