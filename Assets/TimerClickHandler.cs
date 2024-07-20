@@ -4,6 +4,7 @@ using TMPro;
 public class TimerClickHandler : MonoBehaviour
 {
     public TMP_Text timerTextUI;
+    public GameObject Timergameobject;
     public TMP_Text clickTextUI;
     public float timer;
     public float starttimer;
@@ -36,12 +37,13 @@ public class TimerClickHandler : MonoBehaviour
         {
             ResetTimer();
             gameObject.SetActive(false);
+            Timergameobject.SetActive(false);
         }
     }
 
     void ResetTimer()
     {
-        timer = 0;
+        timer = starttimer;
         isTimerRunning = true;
         clickCount++;
         UpdateClickCountText();
