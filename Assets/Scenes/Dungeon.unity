@@ -3264,7 +3264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerTextUI: {fileID: 355157306}
-  Timergameobject: {fileID: 0}
+  Timergameobject: {fileID: 355157304}
   clickTextUI: {fileID: 41946734}
   timer: 10
   starttimer: 10
@@ -3480,7 +3480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerTextUI: {fileID: 355157306}
-  Timergameobject: {fileID: 0}
+  Timergameobject: {fileID: 355157304}
   clickTextUI: {fileID: 41946734}
   timer: 5
   starttimer: 5
@@ -4532,7 +4532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerTextUI: {fileID: 355157306}
-  Timergameobject: {fileID: 0}
+  Timergameobject: {fileID: 355157304}
   clickTextUI: {fileID: 41946734}
   timer: 15
   starttimer: 15
@@ -4995,7 +4995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerTextUI: {fileID: 355157306}
-  Timergameobject: {fileID: 0}
+  Timergameobject: {fileID: 355157304}
   clickTextUI: {fileID: 41946734}
   timer: 20
   starttimer: 20
