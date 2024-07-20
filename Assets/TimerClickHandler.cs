@@ -54,6 +54,7 @@ public class TimerClickHandler : MonoBehaviour
 
     void UpdateClickCountText()
     {
+        Debug.Log("Log_Potion_Sold");
         clickTextUI.text = "£: " + clickCount;
     }
 }
