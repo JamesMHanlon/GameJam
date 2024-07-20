@@ -20,7 +20,6 @@ public class TimerClickHandler : MonoBehaviour
     void Update()
     {
         Timergameobject.SetActive(true);
-        Debug.Log("test");
         if (isTimerRunning)
         {
             timer -= Time.deltaTime;
