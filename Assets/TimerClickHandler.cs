@@ -8,8 +8,9 @@ public class TimerClickHandler : MonoBehaviour
     public TMP_Text clickTextUI;
     public float timer;
     public float starttimer;
-    private int clickCount = 0;
+    public int clickCount;
     private bool isTimerRunning = true;
+    public int value;
 
     void Start()
     {
@@ -46,7 +47,7 @@ public class TimerClickHandler : MonoBehaviour
     {
         timer = starttimer;
         isTimerRunning = true;
-        clickCount++;
+        clickCount = clickCount + value;
         UpdateClickCountText();
         UpdateTimerText();
     }

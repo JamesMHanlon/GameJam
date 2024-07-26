@@ -357,6 +357,10 @@ RectTransform:
   - {fileID: 41946733}
   - {fileID: 1633272761}
   - {fileID: 1499266488}
+  - {fileID: 848719904}
+  - {fileID: 764663889}
+  - {fileID: 1840753592}
+  - {fileID: 2073390592}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3328,6 +3332,8 @@ MonoBehaviour:
   clickTextUI: {fileID: 41946734}
   timer: 10
   starttimer: 10
+  clickCount: 0
+  value: 2
 --- !u!212 &764663888
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3388,12 +3394,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764663885}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -161.746, y: 50.0225, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7789, y: 3.0655022, z: 0}
   m_LocalScale: {x: 4.676945, y: 4.5429134, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159122457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &764663890
 BoxCollider2D:
@@ -3520,12 +3526,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848719901}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -161.73, y: 49.99, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7628937, y: 3.0330048, z: 0}
   m_LocalScale: {x: 4.9937267, y: 3.940016, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159122457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &848719905
 MonoBehaviour:
@@ -3544,6 +3550,8 @@ MonoBehaviour:
   clickTextUI: {fileID: 41946734}
   timer: 5
   starttimer: 5
+  clickCount: 0
+  value: 1
 --- !u!61 &848719906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4632,12 +4640,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840753589}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -162.19, y: 49.9178, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.77, y: 2.960804, z: 0}
   m_LocalScale: {x: 4.6853, y: 3.8063087, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159122457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1840753593
 MonoBehaviour:
@@ -4656,6 +4664,8 @@ MonoBehaviour:
   clickTextUI: {fileID: 41946734}
   timer: 15
   starttimer: 15
+  clickCount: 0
+  value: 3
 --- !u!61 &1840753594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5155,12 +5165,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073390589}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -161.83, y: 49.91, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.8629, y: 2.953003, z: 0}
   m_LocalScale: {x: 4.6852, y: 3.4603, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 159122457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2073390593
 MonoBehaviour:
@@ -5179,6 +5189,8 @@ MonoBehaviour:
   clickTextUI: {fileID: 41946734}
   timer: 20
   starttimer: 20
+  clickCount: 0
+  value: 4
 --- !u!61 &2073390594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5249,10 +5261,6 @@ Animator:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 331672022}
   - {fileID: 519420032}
   - {fileID: 159122457}
-  - {fileID: 331672022}
-  - {fileID: 848719904}
-  - {fileID: 764663889}
-  - {fileID: 1840753592}
-  - {fileID: 2073390592}
