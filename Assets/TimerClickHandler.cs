@@ -5,17 +5,15 @@ public class TimerClickHandler : MonoBehaviour
 {
     public TMP_Text timerTextUI;
     public GameObject Timergameobject;
-    public TMP_Text clickTextUI;
+    public ClickCounter clickCounter;
     public float timer;
     public float starttimer;
-    public int clickCount;
-    private bool isTimerRunning = true;
     public int value;
+    private bool isTimerRunning = true;
 
     void Start()
     {
         UpdateTimerText();
-        UpdateClickCountText();
     }
 
     void Update()
@@ -47,20 +45,13 @@ public class TimerClickHandler : MonoBehaviour
     {
         timer = starttimer;
         isTimerRunning = true;
-        clickCount = clickCount + value;
-        UpdateClickCountText();
+        clickCounter.IncrementClickCount(value);
         UpdateTimerText();
     }
 
     void UpdateTimerText()
     {
         timerTextUI.text = Mathf.Ceil(timer).ToString();
-    }
-
-    void UpdateClickCountText()
-    {
-        Debug.Log("Log_Potion_Sold");
-        clickTextUI.text = "£: " + clickCount;
     }
 }
 
