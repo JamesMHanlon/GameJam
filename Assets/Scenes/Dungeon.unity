@@ -7453,6 +7453,7 @@ GameObject:
   - component: {fileID: 942358494}
   - component: {fileID: 942358493}
   - component: {fileID: 942358492}
+  - component: {fileID: 942358496}
   m_Layer: 5
   m_Name: Slot 4 purchase
   m_TagString: Untagged
@@ -7599,6 +7600,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942358490}
   m_CullTransparentMesh: 1
+--- !u!114 &942358496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942358490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8c2a43661fa8a48a77174ac5208de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickCounter: {fileID: 41946736}
+  value: 1000
 --- !u!1 &965853569
 GameObject:
   m_ObjectHideFlags: 0
@@ -8839,6 +8854,7 @@ GameObject:
   - component: {fileID: 1211809591}
   - component: {fileID: 1211809590}
   - component: {fileID: 1211809589}
+  - component: {fileID: 1211809593}
   m_Layer: 5
   m_Name: Slot 3 purchase
   m_TagString: Untagged
@@ -8985,6 +9001,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211809587}
   m_CullTransparentMesh: 1
+--- !u!114 &1211809593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211809587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8c2a43661fa8a48a77174ac5208de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickCounter: {fileID: 41946736}
+  value: 500
 --- !u!1 &1228358439
 GameObject:
   m_ObjectHideFlags: 0
@@ -11313,6 +11343,7 @@ GameObject:
   - component: {fileID: 1594197086}
   - component: {fileID: 1594197085}
   - component: {fileID: 1594197084}
+  - component: {fileID: 1594197088}
   m_Layer: 5
   m_Name: Slot 2 purchase
   m_TagString: Untagged
@@ -11459,6 +11490,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594197082}
   m_CullTransparentMesh: 1
+--- !u!114 &1594197088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594197082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8c2a43661fa8a48a77174ac5208de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickCounter: {fileID: 41946736}
+  value: 100
 --- !u!1 &1621607564
 GameObject:
   m_ObjectHideFlags: 0

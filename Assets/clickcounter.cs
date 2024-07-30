@@ -12,6 +12,12 @@ public class ClickCounter : MonoBehaviour
         UpdateClickCountText();
     }
 
+    public void DecreaseClickCount(int Purchase)
+    {
+        clickCount -= Purchase;
+        UpdateClickCountText();
+    }
+
     private void UpdateClickCountText()
     {
         clickTextUI.text = "£: " + clickCount;
