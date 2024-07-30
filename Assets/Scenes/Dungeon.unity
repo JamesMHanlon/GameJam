@@ -266,6 +266,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 49765004}
   Timergameobject: {fileID: 49765002}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 10
   starttimer: 10
   value: 10
@@ -619,6 +620,134 @@ RectTransform:
   m_AnchoredPosition: {x: -1.71, y: 1.63}
   m_SizeDelta: {x: 2.3876, y: 0.6727}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &53699259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 53699261}
+  - component: {fileID: 53699260}
+  m_Layer: 0
+  m_Name: KACHING
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &53699260
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53699259}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ba94a4c7134cea24fb69e2ffec0a5548, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &53699261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53699259}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &151933978
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +849,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 49765004}
   Timergameobject: {fileID: 49765002}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 5
   starttimer: 5
   value: 5
@@ -1015,6 +1145,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1051818804}
   Timergameobject: {fileID: 1051818802}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 5
   starttimer: 5
   value: 5
@@ -1201,6 +1332,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1783739244}
   Timergameobject: {fileID: 1783739242}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 10
   starttimer: 10
   value: 10
@@ -2938,7 +3070,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3270,6 +3402,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1051818804}
   Timergameobject: {fileID: 1051818802}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 20
   starttimer: 20
   value: 20
@@ -3441,6 +3574,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1051818804}
   Timergameobject: {fileID: 1051818802}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 15
   starttimer: 15
   value: 15
@@ -6109,6 +6243,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 355157306}
   Timergameobject: {fileID: 355157304}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 10
   starttimer: 10
   value: 10
@@ -6280,6 +6415,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 49765004}
   Timergameobject: {fileID: 49765002}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 15
   starttimer: 15
   value: 15
@@ -6497,6 +6633,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 355157306}
   Timergameobject: {fileID: 355157304}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 5
   starttimer: 5
   value: 5
@@ -6566,6 +6703,134 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &878685904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878685906}
+  - component: {fileID: 878685905}
+  m_Layer: 0
+  m_Name: music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &878685905
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878685904}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1276558458918369009, guid: ea11af60af022df49ada6acebe6e140a, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 10c139d7a662e3f479f930f2e96ee134, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &878685906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878685904}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905119593
 GameObject:
   m_ObjectHideFlags: 0
@@ -7394,6 +7659,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1783739244}
   Timergameobject: {fileID: 1783739242}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 15
   starttimer: 15
   value: 15
@@ -7873,6 +8139,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1051818804}
   Timergameobject: {fileID: 1051818802}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 10
   starttimer: 10
   value: 10
@@ -9758,6 +10025,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 49765004}
   Timergameobject: {fileID: 49765002}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 20
   starttimer: 20
   value: 20
@@ -10994,6 +11262,138 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1632787917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632787918}
+  - component: {fileID: 1632787919}
+  m_Layer: 0
+  m_Name: potions bubbling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1632787918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632787917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -155.9671, y: 46.956997}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1632787919
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632787917}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 22df3f701b5566243bfe8a70f9bbe2b7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1633272759
 GameObject:
   m_ObjectHideFlags: 0
@@ -11893,6 +12293,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1783739244}
   Timergameobject: {fileID: 1783739242}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 5
   starttimer: 5
   value: 5
@@ -12184,6 +12585,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 355157306}
   Timergameobject: {fileID: 355157304}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 15
   starttimer: 15
   value: 15
@@ -13130,6 +13532,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 355157306}
   Timergameobject: {fileID: 355157304}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 20
   starttimer: 20
   value: 20
@@ -13270,6 +13673,7 @@ MonoBehaviour:
   timerTextUI: {fileID: 1783739244}
   Timergameobject: {fileID: 1783739242}
   clickCounter: {fileID: 41946736}
+  Audio: {fileID: 53699260}
   timer: 20
   starttimer: 20
   value: 20
@@ -13510,5 +13914,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 331672022}
   - {fileID: 519420032}
+  - {fileID: 53699261}
+  - {fileID: 1632787918}
+  - {fileID: 878685906}
   - {fileID: 1633272761}
   - {fileID: 159122457}
