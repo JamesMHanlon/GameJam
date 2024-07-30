@@ -26,9 +26,9 @@ public class ButtonEnabler : MonoBehaviour
         // Enable or disable each button based on the clickCount value
         if (clickCounter != null)
         {
-            button1.interactable = clickCounter.clickCount > 100;
-            button2.interactable = clickCounter.clickCount > 500;
-            button3.interactable = clickCounter.clickCount > 1000;
+            button1.interactable = clickCounter.clickCount >= 100;
+            button2.interactable = clickCounter.clickCount >= 500;
+            button3.interactable = clickCounter.clickCount >= 1000;
         }
     }
 }
