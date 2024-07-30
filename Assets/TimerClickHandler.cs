@@ -6,7 +6,7 @@ public class TimerClickHandler : MonoBehaviour
     public TMP_Text timerTextUI;
     public GameObject Timergameobject;
     public ClickCounter clickCounter;
-    public AudioSource Audio;
+    public AudioSource Collect, PotionBrewing, PotionPlaced, PotionEnd;
     public float timer;
     public float starttimer;
     public int value;
@@ -15,6 +15,8 @@ public class TimerClickHandler : MonoBehaviour
     void Start()
     {
         UpdateTimerText();
+        PotionPlaced.Play();
+        PotionBrewing.Play();
     }
 
     void Update()
@@ -39,7 +41,8 @@ public class TimerClickHandler : MonoBehaviour
             ResetTimer();
             gameObject.SetActive(false);
             Timergameobject.SetActive(false);
-            Audio.Play();
+            Collect.Play();
+            PotionEnd.Play();
         }
     }
 
