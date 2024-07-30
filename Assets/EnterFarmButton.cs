@@ -7,7 +7,8 @@ public class DungeonScript : MonoBehaviour
     public void OnMouseDown ()
     {
         Debug.Log("EnteringFarm");
-        SceneManager.LoadScene("Farm");
+        SceneManager.LoadScene("farm");
+        
     }
 
 }
