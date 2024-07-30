@@ -20,6 +20,6 @@ public class ClickCounter : MonoBehaviour
 
     private void UpdateClickCountText()
     {
-        clickTextUI.text = "£: " + clickCount;
+        clickTextUI.text =clickCount + "xp";
     }
 }
