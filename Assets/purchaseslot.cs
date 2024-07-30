@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class purchaseslot : MonoBehaviour
+public class PurchaseSlot : MonoBehaviour
 {
-    public ClickCounter clickCounter;
-    public int value;
 
-    private void OnClickDown()
+    public ClickCounter clickCounter;
+    public int ButtonValue;
+
+    private void UpdateMoney()
     {
-        clickCounter.DecreaseClickCount(value);
+        clickCounter.clickCount -= ButtonValue;
     }
 }
