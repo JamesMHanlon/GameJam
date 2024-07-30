@@ -6,6 +6,7 @@ public class TimerClickHandler : MonoBehaviour
     public TMP_Text timerTextUI;
     public GameObject Timergameobject;
     public ClickCounter clickCounter;
+    public AudioSource Audio;
     public float timer;
     public float starttimer;
     public int value;
@@ -38,6 +39,7 @@ public class TimerClickHandler : MonoBehaviour
             ResetTimer();
             gameObject.SetActive(false);
             Timergameobject.SetActive(false);
+            Audio.Play();
         }
     }
 
