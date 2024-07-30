@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickTextUI: {fileID: 41946734}
-  clickCount: 0
+  clickCount: 96
 --- !u!1 &49765002
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +802,7 @@ GameObject:
   - component: {fileID: 159122456}
   - component: {fileID: 159122455}
   - component: {fileID: 159122454}
+  - component: {fileID: 159122458}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -897,6 +898,22 @@ RectTransform:
   m_AnchoredPosition: {x: -155.9671, y: 46.956997}
   m_SizeDelta: {x: 16.9715, y: 10.2887}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &159122458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159122453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6f4fc23461e0d42b3977a3f641b14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button1: {fileID: 1594197085}
+  button2: {fileID: 1211809590}
+  button3: {fileID: 942358493}
+  clickCounter: {fileID: 41946736}
 --- !u!1 &162990251
 GameObject:
   m_ObjectHideFlags: 0
